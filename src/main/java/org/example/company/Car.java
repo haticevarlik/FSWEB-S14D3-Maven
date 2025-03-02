@@ -35,14 +35,17 @@ public class Car {
     }
 
     public String startEngine() {
+        System.out.println("Class name: "+getClass().getSimpleName());
         return ("the car's engine is starting");
     }
 
     public String accelerate() {
+        System.out.println("Class name: "+getClass().getSimpleName());
         return ("the car is accelerating");
     }
 
     public String brake() {
+        System.out.println("Class name: "+getClass().getSimpleName());
         return ("the car is braking");
     }
 }
